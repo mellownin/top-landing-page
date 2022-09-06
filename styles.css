@@ -17,6 +17,19 @@ div.header div.navbar {
     display: flex;
     align-items: center;
     padding: 16px 140px;
+    gap: 16px;
+}
+
+div.header div.navbar img {
+    display: flex;
+    width: auto;
+    height: 40px;
+    border-radius: 10px;
+}
+
+div.header div.navbar p {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 div.header div.navbar ul {
@@ -72,10 +85,18 @@ button {
 div.header div.header-img {
     display: flex;
     margin-left: auto;
+    width: 600px;
+    height: 260px;
+    flex: initial;
+    justify-content: flex-end;
+    margin-bottom: 36px;
+
 }
 
 div.header div.header-img img{
-    width: 380px; 
-    height: 200px;
     border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    align-self: flex-start;
 }
