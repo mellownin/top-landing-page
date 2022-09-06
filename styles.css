@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-flow: column;
     margin: 0;
+    min-width: 600px;
 
 }
 
@@ -10,7 +11,6 @@ div.header {
     flex-flow: column nowrap;
     background-color: #1F2937;
     color: white;
-    flex: initial;
 }
 
 div.header div.navbar {
@@ -47,13 +47,15 @@ div.header div.navbar a {
 div.header div.head-wrap {
     display: flex;
     padding: 32px 140px;
-    gap: 16px;
+    gap: 40px;
 }
 
 div.header div.header-intro {
     display: flex;
     flex-flow: column;
-    gap: 6px;
+    gap: 16px;
+    flex: initial;
+    width: 600px;
 }
 
 div.header div.header-intro h1,
@@ -85,18 +87,17 @@ button {
 div.header div.header-img {
     display: flex;
     margin-left: auto;
-    width: 600px;
+    width: 800px;
     height: 260px;
     flex: initial;
     justify-content: flex-end;
-    margin-bottom: 36px;
+    min-width: 200px;
 
 }
 
 div.header div.header-img img{
     border-radius: 10px;
     max-width: 100%;
-    height: auto;
-    object-fit: contain;
+    max-height: 100%;
     align-self: flex-start;
 }
