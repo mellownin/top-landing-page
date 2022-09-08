@@ -59,6 +59,7 @@ div.header div.header-intro {
     gap: 16px;
     flex: initial;
     width: 600px;
+    margin-right: auto;
 }
 
 div.header div.header-intro h1,
@@ -89,10 +90,9 @@ button {
 
 div.header div.header-img {
     display: flex;
-    margin-left: auto;
     width: 390px;
     height: 260px;
-    flex: none;
+    flex: initial;
     justify-content: flex-end;
 }
 
@@ -122,9 +122,9 @@ div.mid-content div.rando-info h2{
 div.mid-content div.img-blocks {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 36px;
+    gap: 48px;
     padding: 10px 180px;
     
 }
@@ -133,7 +133,7 @@ div.mid-content div.img-block {
     display: flex;
     flex-flow: column;
     flex: initial;
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     border: 5px solid red;
 }
