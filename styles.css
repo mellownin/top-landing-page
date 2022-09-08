@@ -101,3 +101,9 @@ div.header div.header-img img{
     max-height: 100%;
     align-self: flex-start;
 }
+
+div.mid-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
