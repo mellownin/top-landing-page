@@ -162,7 +162,32 @@ div.mid-content div.quote-container {
     display: flex;
     flex-flow: column;
     background-color: #E5E7EB;
-    padding: 80px 100px;
+    padding: 80px 240px;
     justify-content: center;
     align-items: center;
+}
+
+div.quote-container div.quote {
+    display: flex;
+    flex: auto;
+    align-items: center;
+}
+
+div.quote-container p.quote {
+    display: flex;
+    align-self: flex-start;
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
+    margin-block-start: 0px;
+    margin-block-end: 5px;
+    text-align: left;
+}
+
+div.quote-container p.quote-author {
+    display: flex;
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+    margin-block: 0;
 }
