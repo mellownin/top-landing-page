@@ -225,7 +225,6 @@ div.action-container div.action-block p {
 
 div.action-container div.action-block p.small-para {
     font-size: 14px;
-    font-weight: 100;
     color: #E5E7EB;
 }
 
@@ -233,4 +232,18 @@ div.action-container button {
     border: 2px solid white;
     justify-self: flex-end;
     margin: 0 100px;
+}
+
+div.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px 0px; 
+}
+
+div.footer p {
+    font-size: 14px;
+    color: #E5E7EB;
 }
