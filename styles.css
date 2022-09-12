@@ -195,16 +195,16 @@ div.quote-container p.quote-author {
 
 div.action-container {
     display: flex;
-    flex-flow: row;
-    flex-shrink: 1;
+    flex-flow: row wrap;
+    flex: initial;
     align-self: center;
     align-items: center;
     margin: 0px 80px 100px;
     background-color: #3882F6;
     border-radius: 10px;
     color: white;
-    height: 100px;
-    width: 875px;
+    min-height: 100px;
+    max-width: 875px;
 }
 
 div.action-container div.action-block {
